@@ -51,15 +51,16 @@
             </div>
         </div>
     </nav>
+    <!-- Lower navbar -->
     <nav class="navbar navbar-expand-md navbar-dark shadow-sm second-navbar">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
                     <a href="/" class="nav-link">Home</a>
-                    <a href="{{ route('about') }}" class="nav-link">About</a>
-                    <a href="{{ route('projects') }}" class="nav-link">Projects</a>
-                    <a href="{{ route('contact') }}" class="nav-link">Contact</a>
+                    <a href="{{ route('about') }}" class="nav-link {{ (request()->is('about*')) ? 'active' : '' }}">About</a>
+                    <a href="{{ route('projects') }}" class="nav-link {{ (request()->is('projects*')) ? 'active' : '' }}">Projects</a>
+                    <a href="{{ route('contact') }}" class="nav-link {{ (request()->is('contact*')) ? 'active' : '' }}">Contact</a>
                 </ul>
             </div>
         </div>
