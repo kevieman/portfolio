@@ -54,10 +54,36 @@ html, body {
 }
 
 .heading {
-    color: orangered;
+    color: #636b6f;
     font-size: 54px;
 }
 
 .second-navbar {
     background-color: orangered;
+
+    .nav-link {
+        color: rgba(255,255,255,.70) !important;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .active {
+        color: white !important;
+        text-decoration: underline;
+    }
+    .active:hover {
+        text-decoration: underline !important;
+    }
 }
+
+.navbar-brand {
+    span {
+        font-size: 36px;
+        color: orangered;
+        font-family: 'Nunito', sans-serif;
+    }
+}
+
+
+
+
