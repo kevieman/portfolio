@@ -17,7 +17,7 @@
 
         <div class="welcome-links">
             <a href="{{ route('about') }}">About</a>
-            <a href="{{ route('projects') }}">Projects</a>
+            <a href="{{ route('portfolio') }}">portfolio</a>
             <a href="{{ route('contact') }}">Contact</a>
         </div>
     </div>

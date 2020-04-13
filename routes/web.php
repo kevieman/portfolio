@@ -21,7 +21,7 @@ Route::get('/about', function () { return view('about'); })->name('about');
 Route::get('/contact', function () { return view('contact'); })->name('contact');
 
 // Projects routes
-Route::get('/projects', function () { return view('projects.index'); })->name('projects');
+Route::get('/portfolio', 'ProjectController@index' )->name('portfolio');
 
 Auth::routes([
     'register' => false
