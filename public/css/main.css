@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #fff;
+  background-color: #fafafa;
   color: #636b6f;
   font-family: "Nunito", sans-serif;
   font-weight: 200;
@@ -28,10 +28,6 @@ body {
   top: 18px;
 }
 
-.content {
-  text-align: center;
-}
-
 .title {
   font-size: 84px;
   color: orangered;
@@ -54,27 +50,17 @@ body {
 }
 
 .heading {
-  color: #636b6f;
+  color: orangered;
   font-size: 54px;
 }
 
-.second-navbar {
-  background-color: orangered;
+.navbar .nav-link {
+  font-size: 18px;
+  color: black !important;
 }
 
-.second-navbar .nav-link {
-  color: rgba(255, 255, 255, 0.7) !important;
-  font-size: 20px;
+.navbar .active {
   font-weight: 600;
-}
-
-.second-navbar .active {
-  color: white !important;
-  text-decoration: underline;
-}
-
-.second-navbar .active:hover {
-  text-decoration: underline !important;
 }
 
 .navbar-brand span {

@@ -1,5 +1,5 @@
 html, body {
-    background-color: #fff;
+    background-color: #fafafa;
     color: #636b6f;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
@@ -28,7 +28,7 @@ html, body {
 }
 
 .content {
-    text-align: center;
+    //text-align: center;
 }
 
 .title {
@@ -54,25 +54,20 @@ html, body {
 }
 
 .heading {
-    color: #636b6f;
+    color: orangered;
     font-size: 54px;
 }
 
-.second-navbar {
-    background-color: orangered;
-
+.navbar {
     .nav-link {
-        color: rgba(255,255,255,.70) !important;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 18px;
+        color: black !important;
     }
 
     .active {
-        color: white !important;
-        text-decoration: underline;
+        font-weight: 600;
     }
     .active:hover {
-        text-decoration: underline !important;
     }
 }
 
