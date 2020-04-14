@@ -69,3 +69,12 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.skills-table {
+  max-width: 450px;
+  border: none;
+}
+
+.skills-table th {
+  width: 100px;
+}
+

@@ -24,6 +24,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    @if(request()->is('/'))
+        <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
+    @endif
 </head>
 <body>
 
