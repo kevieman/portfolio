@@ -31,22 +31,18 @@
                     <div class="col">
                         <table class="table skills-table table-borderless">
                             <tbody>
-                                <tr>
-                                    <th scope="row">PHP</th>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25</div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">PHP</th>
-                                    <td>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25</div>
-                                        </div>
-                                    </td>
-                                </tr>
+                                @foreach($skills as $skill)
+                                    <tr>
+                                        <th scope="row">{{ $skill->name }}</th>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: {{ $skill->lvl }}%"
+                                                     aria-valuenow="{{ $skill->lvl }}" aria-valuemin="0"
+                                                     aria-valuemax="100">{{ $skill->lvl }}</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>

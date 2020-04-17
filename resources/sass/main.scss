@@ -89,4 +89,21 @@ html, body {
 
 }
 
+.btn1 {
+    color: white;
+    background-color: orangered;
+    &:hover {
+        color: white;
+        background-color: #ee3800;
+    }
+}
+
+.pages-card {
+    margin-bottom: 25px;
+}
+
+.page-row {
+    padding-bottom: 25px;
+}
+
 

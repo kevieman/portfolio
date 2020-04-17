@@ -78,3 +78,21 @@ body {
   width: 100px;
 }
 
+.btn1 {
+  color: white;
+  background-color: orangered;
+}
+
+.btn1:hover {
+  color: white;
+  background-color: #ee3800;
+}
+
+.pages-card {
+  margin-bottom: 25px;
+}
+
+.page-row {
+  padding-bottom: 25px;
+}
+
